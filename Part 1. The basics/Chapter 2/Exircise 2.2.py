@@ -1,3 +1,4 @@
+# Простые сообщения.
 mes = 'hello python community'
 print(mes)
 
