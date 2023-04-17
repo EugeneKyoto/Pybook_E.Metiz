@@ -9,5 +9,10 @@ for guest in guest_list:
         print(f'\tHe does not wonna go ->>> {guest}\n')
 
 # Условие №1: заменить имя гостя, который не может прийти.
-guest_list.remove('Vlad')
+guest_list[2] = 'Nikolay'
 print(f'Список приглашённых {guest_list}')
+print()
+
+# Условие №2 Выведите новый набор сообщений с приглашениями — по одному для каждого участника, входящего в список
+for guest in guest_list:
+    print(f'Nice to meet you, {guest}!\n')
