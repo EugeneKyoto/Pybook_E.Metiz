@@ -10,3 +10,6 @@ for guest in guest_list:
         print(f'Welcome {guest}! Nice to meet u!')
     else:
         print(f'Ты уже приглашён, {guest}!')
+
+# Теория тестирования и sql едят время
+# p.s. работа тоже, завтра запушу целую главу.. Надеюсь...
