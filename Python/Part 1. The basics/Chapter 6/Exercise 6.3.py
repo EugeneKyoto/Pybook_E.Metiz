@@ -8,3 +8,5 @@ glossary = {
 }
 for key, value in glossary.items():
     print(f'Определение: {key}\nОтвет:{value}\n')
+
+print('Рестек на JAVA в связи с полученной работой в крупной IT - компании. Good bye Python...')
